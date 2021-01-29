@@ -15,7 +15,7 @@ type MyCircularDeque struct {
 func Constructor(k int) MyCircularDeque {
 	return MyCircularDeque{
 		maxLength: k,
-		nums:      make([]int, 0, 10),
+		nums:      make([]int, 0, k),
 		length:    0,
 	}
 }
